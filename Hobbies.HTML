@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="Hobbies.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Reading Manhwa/Manga</h2>
+            <a href="Reading.html" class="sin">Click Now</a>
+            <div class="circle"></div>
+            <img src="Manhwa.jpg" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Singing</h2>
+            <a href="Singing.html" class="sin">Click Now</a>
+            <div class="circle"></div>
+            <img src="Sing.jpg" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Cooking</h2>
+            <a href="Cooking.html" class="sin">Click Now</a>
+            <div class="circle"></div>
+            <img src="Cooking.jpg" class="product">
+        </div>
+    </div>
+    <script type="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+    </script>
+</body>
+</html>

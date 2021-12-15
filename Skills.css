@@ -1,0 +1,32 @@
+table { 
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px dimgray;
+    background-color: white;
+    text-align: center;
+    z-index: 5;
+    width: 650px;
+    height: 100px
+    line-height: center;
+    position: center;
+    margin-bottom: 20px;
+}
+
+thead {
+    box-shadow: 0 5px 10px lightgray;
+}
+
+th {
+    padding: 3rem 6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+    font-family: poppins;
+}
+
+td{
+    padding: 3%;
+}
+h1{
+    color: white;
+}

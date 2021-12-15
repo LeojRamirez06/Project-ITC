@@ -1,0 +1,54 @@
+.info {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.info h1 {
+    font-weight: bold;
+    font-family: Pacifico;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 30px 8px 22px rgba(94, 28, 68, 0.15);
+    color: whitesmoke;
+}
+
+.info p {
+    font-size: 18px;
+    font-family: Raleway;
+    border: solid;
+    width: 50%;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.pic {
+    width: 25%;
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    right: 10em;
+}
+
+
+.photo {
+    width: 28%;
+    position: absolute;
+    align-items: center;
+    top: 18%;
+    right: 10em;
+}
+
+.lines {
+    width: 20%;
+    position: absolute;
+    align-items: center;
+    top: 105px;
+    right: 13.8em;
+}
+
+body{
+    background-image: url("BG-A.jpg");
+  background-size: cover;
+}
